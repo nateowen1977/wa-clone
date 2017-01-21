@@ -21,7 +21,8 @@
   "homepage": "https://github.com/nateowen1977/wa-clone#readme",
   "dependencies": {
     "babel-cli": "^6.22.2",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "express": "^4.14.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
