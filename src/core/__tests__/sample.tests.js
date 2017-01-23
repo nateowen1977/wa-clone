@@ -1,7 +1,7 @@
 import {assert} from 'chai';
 
 describe('Some Sample tests', () => {
-    it('should fail', () =>{
+    xit('should fail', () =>{
         assert.equal(1,2);
     })
 

@@ -19,12 +19,16 @@ module.exports = {
     loaders: [
       {
         test: /src(\/|\\).*\.js$/,
-	exclude: /node_modules/,
-	loader: 'babel-loader',
-	query: {
-	  presets: ['es2015', 'react']
-	}
-      }
+        exclude: /node_modules/,
+        loader: 'babel-loader',
+        query: {
+          presets: ['es2015', 'react']
+        }
+      },
+			{
+				test: /src(\/|\\).*\.scss$/,
+				loaders: ["style", "css", "sass"]
+			}      
     ]
   },
   plugins: []
