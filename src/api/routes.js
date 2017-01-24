@@ -42,6 +42,7 @@ function setup(app) {
 			name
 		};
 
+		console.log(redisKeys);
 		redisClient.lrange(redisKeys.users, 0, -1, (err, result) => {
 			if (err) {
 				next(err);
